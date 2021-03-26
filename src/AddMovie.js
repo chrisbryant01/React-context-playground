@@ -24,7 +24,7 @@ const AddMovie = () => {
           ...prevMovies,
           {
             name: name,
-            price: price,
+            price: "$" + price,
             id: Math.random(),
           },
         ])
