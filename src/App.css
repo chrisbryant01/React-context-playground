@@ -17,9 +17,9 @@
 }
 
 form {
-  margin:60px auto;
+  margin: 60px auto;
   padding: 10px 0px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   flex-flow: row wrap;
