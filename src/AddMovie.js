@@ -28,7 +28,7 @@ const AddMovie = () => {
             id: Math.random(),
           },
         ])
-      : alert("Name and Price both are required.");
+      : alert("Name and Price are required.");
   };
 
   return (
