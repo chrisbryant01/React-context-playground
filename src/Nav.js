@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import { MovieContext } from "./MovieContext";
 
 const Nav = () => {
-  // eslint-disable-next-line
-  const [movies, setMovies] = useContext(MovieContext);
+  const [movies] = useContext(MovieContext);
 
   return (
     <nav className="navbar">

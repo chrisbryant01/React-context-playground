@@ -3,8 +3,7 @@ import { MovieContext } from "./MovieContext";
 import Movie from "./Movie";
 
 const MovieList = () => {
-  // eslint-disable-next-line
-  const [movies, setMovies] = useContext(MovieContext);
+  const [movies] = useContext(MovieContext);
 
   return (
     <div>

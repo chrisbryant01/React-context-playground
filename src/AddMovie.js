@@ -33,7 +33,8 @@ const AddMovie = () => {
 
   return (
     <form onSubmit={addMovie}>
-      <h3 style={{ width: "100%" }}>Add Movie</h3>
+      <h3 style={{ width: "100vw" }}>Add Movie</h3>
+      <label>Name: {` `}</label>
       <input
         type="text"
         name="name"
@@ -43,7 +44,7 @@ const AddMovie = () => {
       />
       <label>Price: {` `}</label>
       <input
-        type="text"
+        type="number"
         name="price"
         value={price}
         onChange={updatePrice}
