@@ -19,7 +19,7 @@ const AddMovie = () => {
     e.preventDefault();
 
     name && price
-      ? // This is where we would use the updater function
+      ? // Note: use updater function
         setMovies((prevMovies) => [
           ...prevMovies,
           {
