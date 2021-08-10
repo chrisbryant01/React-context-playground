@@ -5,18 +5,18 @@ export const MovieContext = createContext();
 export const MovieProvider = (props) => {
   const [movies, setMovies] = useState([
     {
-      name: "Harry Potter",
-      price: "$10",
+      name: "Ready Player One",
+      price: "$9.99",
       id: 23124,
     },
     {
-      name: "Game of Thrones",
-      price: "$10",
+      name: "The Matrix",
+      price: "$24.99",
       id: 25661256,
     },
     {
       name: "Inception",
-      price: "$5",
+      price: "$19.99",
       id: 23455679,
     },
   ]);
