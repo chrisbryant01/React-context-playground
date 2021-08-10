@@ -50,7 +50,7 @@ const AddMovie = () => {
         onChange={updatePrice}
         placeholder="Price"
       />
-      <button>Submit</button>
+      <button type="submit">Submit</button>
     </form>
   );
 };
